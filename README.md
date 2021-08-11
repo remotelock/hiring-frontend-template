@@ -31,12 +31,22 @@ This server will expose two endpoints:
 
 The goal of this challenge is to show familiarity with frontend development concepts and ecosystem as well as good general programming patterns. As such, we feel the following are important:
 
-- Clean, readable, maintainable and well-organized code
-- Responsive, mobile-first pages. The web app should adapt to mobile and desktop screen sizes.
-- The toggle in the device tile should work and maintain the state and cause other details in the tile to update.
+- Clarity/Readability: Is the intent of the code obvious? Are things named
+  appropriately? Please void overly clever solutions.
+- Maintainability: How flexible is the code?
+- The UI is organized in terms of components
+- Responsive, mobile-first pages. The web app should adapt to mobile and desktop
+  screen sizes.
+- The toggle in the device tile should work and maintain the state and cause
+  other details in the tile to update.
 - Code should use React to render the UI
+- The body of the pull request gives a high level overview of your solution
 
-  Use React Native **only if you want and are profficient on it**, in which case it doesn't need to be responsive to support desktop view.
+# Bonus points
+
+- Use React Native **only if you want and are profficient on it**, in which case
+  it doesn't need to be responsive to support desktop view.
+- The submission includes unit or integration tests
 
 # What's Not Important
 
@@ -45,8 +55,10 @@ The goal of this challenge is to show familiarity with frontend development conc
 - Feel free to reach to any UI component or utility library to get the job done. No need to re-invent the wheel. Although for trivial stuff, you should feel comfortable writing the code yourself.
 - Typed vs untyped JS (Flow, TypeScript and plain JS are all accepted)
 
-# Deliverable
+# How to Submit the Exercise
 
-- Create a branch to push the commits of your solution
-- Create a Pull Request
-- When your Pull Request is ready for review, respond to our last email thread with the link to your Pull Request.
+- Fork the repository
+- Create a new branch. Commit your solution on this branch.
+- Push the branch to your fork and open a Pull Request
+- When your Pull Request is ready for review, respond to our last email thread
+  with the link to your Pull Request
