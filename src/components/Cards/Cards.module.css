@@ -1,0 +1,10 @@
+.cardsWrapper {
+  margin-top: 10px;
+}
+
+.avatar {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: #ccc;
+}
