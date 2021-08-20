@@ -1,0 +1,37 @@
+.togglerWrapper {
+  display: flex;
+  background-color: #bbb;
+  width: 280px;
+  height: 26px;
+  padding: 2px;
+  border-radius: 6px;
+}
+
+.devicesOn {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 5px;
+  transition-duration: 0.3s;
+}
+
+.deviceOff {
+  flex: 1;
+  transition-duration: 0.3s;
+}
+
+.usersOff {
+  flex: 1;
+  transition-duration: 0.3s;
+}
+
+.usersOn {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 100%;
+  transition-duration: 0.3s;
+}
+
+.title {
+  font-weight: 600;
+}
