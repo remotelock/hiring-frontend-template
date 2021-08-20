@@ -1,0 +1,32 @@
+.appWrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #eee;
+  margin: 0 auto;
+  align-items: center;
+  height: 100%;
+  padding: 10px 10px;
+}
+
+.togglerWrapper {
+  margin: 20px auto;
+}
+
+.itemsWrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  width: calc(100%);
+  max-width: 800px;
+}
+
+@media screen and (min-width: 724px) {
+  .itemsWrapper {
+    display: grid;
+    align-items: flex-start;
+
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    justify-content: center;
+  }
+}
