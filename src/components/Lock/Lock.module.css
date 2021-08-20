@@ -1,0 +1,68 @@
+.authWrapper {
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  width: 200px;
+  z-index: 2;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 3px solid #bbb;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.pinCodeForm {
+  margin-top: 10px;
+  position: relative;
+}
+
+.pinCodeInput {
+  width: 100px;
+  padding: 3px 10px;
+}
+
+.error {
+  height: 14px;
+  font-size: 12px;
+  color: red;
+}
+
+.accessBtnWrapper {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.accessBtn {
+  background-color: #2196f3;
+  width: 120px;
+  padding: 5px 20px;
+  border-radius: 6px;
+  border: none;
+}
+
+.accessBtn:hover {
+  opacity: 0.8;
+}
+
+.cancelBtn {
+  background-color: #bbb;
+  width: 120px;
+  margin-top: 10px;
+  padding: 5px 20px;
+  border-radius: 6px;
+  border: none;
+}
+
+.cancelBtn:hover {
+  opacity: 0.8;
+}
