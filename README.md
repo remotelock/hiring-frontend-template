@@ -23,9 +23,15 @@ Run the server with the command: `node api_server.js`
 
 This server will expose two endpoints:
 
-- Users: http://localhost:4000/api/users.json
+- Users: http://localhost:4000/api/users
 
-- Devices: http://localhost:4000/api/devices.json
+- Devices: http://localhost:4000/api/devices
+
+Additionally those endpoints support filtering by some attributes. The devices
+endpoint support filtering name and the users one by status. To filter the
+endpoint you need to pass the filter as a query param. ej. To filter the devices
+whose name contain the string ome you would use the following URL:
+`http://localhost:4000/api/devices?name=ome`.
 
 # What's Important
 
