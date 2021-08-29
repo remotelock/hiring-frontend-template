@@ -45,6 +45,9 @@ endpoint you need to pass the filter as a query param. ej. To filter the devices
 whose name contain the string ome you would use the following URL:
 `http://localhost:4000/api/devices?name=ome`.
 
+Remember that when running on the device you may need some [additional configuration][running-on-device]
+
+
 # What's Important
 
 The goal of this challenge is to show familiarity with frontend
@@ -78,7 +81,10 @@ patterns. As such, we feel the following are important:
 # How to Submit the Exercise
 
 - Fork the repository
-- Create a new branch. Commit your solution on this branch.
-- Push the branch to your fork and open a Pull Request
+- Create a new branch to work on.
+- Push the branch to your fork and open a Pull Request to *your* fork.
 - When your Pull Request is ready for review, respond to our last email thread
-  with the link to your Pull Request
+  with the link to your Pull Request.
+
+
+[running-on-device]: https://reactnative.dev/docs/running-on-device
